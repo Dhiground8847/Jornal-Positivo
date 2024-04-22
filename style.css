@@ -2,6 +2,11 @@
     --laranja: #f39200;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .imgJornal {
     width: 65%;
@@ -18,4 +23,12 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.batata {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
